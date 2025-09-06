@@ -29,9 +29,10 @@ Clone this repository and open it locally:
 ```bash
 git clone https://github.com/rhythmadl56/Portfolio-Website.git
 cd Portfolio-Website
+```
 You can run it by simply opening index.html in your browser.
 If using a live server (like VS Code extension), just run and view changes instantly.
-```
+
 🌐 Live Demo
 Click here to view my portfolio
 (https://portfoliobyrhythm.netlify.app/)
