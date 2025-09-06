@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythm's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio.</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <div class="theme-toggle">
+                        <input type="checkbox" id="dark-mode-toggle" class="toggle-input">
+                        <label for="dark-mode-toggle" class="toggle-label">
+                            <span class="toggle-slider"></span>
+                            <span class="toggle-icon sun">☀️</span>
+                            <span class="toggle-icon moon">🌙</span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Landing Section -->
+    <section id="home" class="landing">
+        <div class="container">
+            <div class="landing-content">
+                <h1 class="landing-title">Hi, I'm Rhythm</h1>
+                <h2 class="landing-role">Aspiring Software Developer | CSE Student</h2>
+                <p class="landing-tagline">Learning Java, DSA, and Web development while exploring cybersecurity. I also bring a creative edge through my passion for graphic design, blending logic with design to build projects that matter</p>
+                <div class="landing-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m Rhythm, a Computer Science student with a strong interest in software development, problem-solving, and cybersecurity. I’m currently building my skills in Data Structures & Algorithms and Web Development, while exploring new technologies through personal projects.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or sharing knowledge with the developer community.</p>
+                </div>
+                <div class="skills">
+                    <h3>Core Skills</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Front-End Development</span>
+                        <span class="skill-tag">Networking</span>
+                        <span class="skill-tag">Data Structures & Algorithms</span>
+                        <span class="skill-tag">Graphic Designing</span>
+                        <span class="skill-tag">Git & Github</span>
+                        <span class="skill-tag">C & C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-hand-rock"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Rock-Paper-Scissors Game</h3>
+                        <p class="project-description">🚀 A simple and interactive Rock-Paper-Scissors game built using HTML, CSS, and JavaScript.
+                            Challenge the computer with a clean UI, responsive layout, and cool hover animations.
+                            </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://rockpaperandscissorbyradl.netlify.app/" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/rhythmadl56/Rock-Paper-Scissors.git" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Attendance-Calculator</h3>
+                        <p class="project-description">📊 Attendance Calculator for College Students This is a simple and effective web-based attendance calculator built using HTML, CSS, and JavaScript. It helps college students.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://attendancecalculatorbyronak.netlify.app/" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/rhythmadl56/Attendance-Calculator.git" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-ticket-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Movie Ticket Booking System</h3>
+                        <p class="project-description">🍿 A fast and user-friendly movie ticket booking platform that lets you browse now-showing and upcoming films, check showtimes, explore theaters, and reserve your seats instantly.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> In Progress...</a>
+                            <a href="https://github.com/Rishabh-020/Movie-Ticket-Booking-Website.git" class="project-link" target="_blank"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    <div class="contact-methods">
+                        <a href="mailto:rhythmadl56@gmail.com" class="contact-method">
+                            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                            <span>Mail Me</span>
+                        </a>
+                        <a href="https://linkedin.com/in/rhythmadl" class="contact-method" target="_blank">
+                            <span class="contact-icon"><i class="fab fa-linkedin"></i></span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/rhythmadl56" class="contact-method" target="_blank">
+                            <span class="contact-icon"><i class="fab fa-github"></i></span>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Rhythm. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="new.js"></script>
+</body>
+</html>
